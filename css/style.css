@@ -132,3 +132,10 @@ footer h4{color:#fff;font-family:Inter;font-size:.95rem;margin-bottom:14px;lette
 .ph.counselling-banner>img{object-position:center 15%}
 .ph.contact-banner>img{object-position:center 12%}
 footer{background:radial-gradient(circle at 12% 0,rgba(29,79,145,.35),transparent 34%),linear-gradient(135deg,#071a3d,#0a2350)}footer .logo{gap:0}footer .logo svg{display:none}footer .logo b{font-size:1.6rem;letter-spacing:-.03em}footer .logo small{letter-spacing:.28em}footer h4{position:relative;padding-bottom:10px}footer h4:after{content:"";position:absolute;left:0;bottom:0;width:32px;height:2px;background:var(--orange)}footer li a{transition:color .2s ease,padding-left .2s ease}footer li a:hover{padding-left:5px}.soc{gap:12px;margin-top:20px}.soc a{width:42px;height:42px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.09);box-shadow:0 8px 18px rgba(0,0,0,.16);transition:transform .25s ease,background .25s ease,box-shadow .25s ease}.soc a:hover{transform:translateY(-5px);box-shadow:0 13px 23px rgba(0,0,0,.28)}.soc a:nth-child(1):hover{background:#1877f2}.soc a:nth-child(2):hover{background:#f00}.soc a:nth-child(3){font-size:0}.soc a:nth-child(3):after{content:"◎";font-size:22px;line-height:1}.soc a:nth-child(3):hover{background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)}
+body:has(.hero) .sec.alt .wrap.g2>div>.box{display:flex;flex-direction:column}
+body:has(.hero) .sec.alt .wrap.g2>div>.box .btns{margin-top:auto}
+body:has(.hero) .sec.alt .btns a.btn.ob[href^="https://pleasegofundme.com"]{display:none}
+.ph>img[src="img/worship-frame.jpg"]{content:url("../img/donation.jpg");opacity:1;object-position:center}
+.ph:has(>img[src="img/worship-frame.jpg"]):before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(7,26,61,.52),rgba(7,26,61,.3) 48%,rgba(7,26,61,.1));pointer-events:none}
+.dcard .bd .btn.b{background:var(--orange);color:#fff}
+.dcard .bd .btn.b:hover{background:#d95a10}
